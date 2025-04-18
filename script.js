@@ -229,13 +229,25 @@
 // };
 // * გადაუარეთ თითოეულ ობიექტს Object.entries მეთოდით, დაითვალეთ რამდენი აქტიური იუზერია თითოეულ დეპარტამენტში და დააბრუნეთ შემდეგი ობიექტი: 
 // { HR: 1, Engineering: 1 }
+// const employees = {
+//       alice: { department: "HR", active: true },
+//       bob: { department: "Engineering", active: false },
+//       charlie: { department: "Engineering", active: true },
+//     };
+//     //ver davwere
+// let res = Object.entries(employees);
+// console.log(res);
+// let actives = res.map(([key, employee]) => employee.active);
+// console.log(actives);
+// let departments = res.map(([key, employee]) => employee.department);
+// console.log(departments);
+// let activeDepartmentsCount = res.reduce((cnt, [key, employee]) => {
+//     if (employee.active) {
+//         cnt[employee.department] = (cnt[employee.department] || 0) + 1;
+//     }
+//     return cnt;
+//     }, {});
+      
+// console.log(activeDepartmentsCount); 
 
-const employees = {
-      alice: { department: "HR", active: true },
-      bob: { department: "Engineering", active: false },
-      charlie: { department: "Engineering", active: true },
-    };
-
-
-    //ver davwere
-
+//დავწერე მოგვიანებით
